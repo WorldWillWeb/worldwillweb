@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html class="h-full">
 <head>
-    <title>{% block title %}{{ page.title }}{% endblock %} {{ site.title }} | {{ site.subtitle }}</title>
+    <title>{% block title %}{{ page.title }} | {% endblock %} {{ site.title }} | {{ site.subtitle }}</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     {% block head_meta %}
     <meta name="robots" content="noindex, follow">
     {% endblock %}
-    <link rel="apple-touch-startup-image" href="{{ site.url }}/build/2048x2048.png">
+
+    {# <link rel="apple-touch-startup-image" href="{{ site.url }}/build/2048x2048.png">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="shortcut icon" sizes="76x76" href="{{ site.url }}/build/jackson/76x76.png">
@@ -25,7 +28,7 @@
     <link rel="apple-touch-icon" sizes="196x196" href="{{ site.url }}/build/jackson/196x196.png">
     <link rel="apple-touch-icon" sizes="512x512" href="{{ site.url }}/build/jackson/512x512.png">
     <link rel="apple-touch-icon" sizes="1024x1024" href="{{ site.url }}/build/jackson/1024x1024.png">
-    <link rel="apple-touch-icon" sizes="2048x2048" href="{{ site.url }}/build/jackson/2048x2048.png">
+    <link rel="apple-touch-icon" sizes="2048x2048" href="{{ site.url }}/build/jackson/2048x2048.png"> #}
 
     <link rel="stylesheet" href="{{ site.url }}/build/css/app.css"/>
 
@@ -33,16 +36,18 @@
 
     {% block head_styles %}
     {% endblock %}
+
     {% block head_scripts %}
     {% endblock %}
 </head>
+
 <body class="antialiased flex flex-col h-full">
 {% block content_wrapper %}{% block content '' %}{% endblock content_wrapper %}
 
-<footer class="w-full text-right border-t border-gray-400 p-3 pin-b">
-    <span>Copyright &copy; The Owner Of This Website</span>
+<footer class="w-full text-center border-t border-gray-800 p-3 pin-b">
+    <span>WorldWillWeb &copy; - 2021</span>
     <span class="pr-2 pl-2">/</span>
-    <span class="opacity-50">Powered by <a href="https://sculpin.io">Sculpin</a></span>
+    <span class="opacity-50">Made with <a href="https://sculpin.io">Sculpin</a></span>
 </footer>
 
 <script type="text/javascript" src="{{ site.url }}/build/js/app.js"></script>
@@ -66,5 +71,6 @@
 
 {% block scripts_after %}
 {% endblock %}
+
 </body>
 </html>
