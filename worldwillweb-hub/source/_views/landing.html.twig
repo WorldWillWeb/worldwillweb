@@ -2,16 +2,16 @@
 
 {% block content_wrapper %}
     {% block jumbo_wrapper %}
-        <header class="md:flex bg-pink-800 py-20 items-center">
+        <header class="md:flex bg-blue-500 py-10 items-center">
             <div class="md:flex w-2/3 mx-auto">
             <div class="md:flex-shrink-0 px-20 mb-10 md:mb-0 md:w-1/2">
-                <img class="rounded-b-full md:w-56 w-32 mx-auto border-teal-400 border-8 p-6" src="{{ site.url }}/build/jackson/512x512.png" alt="Jackson posing for a photograph">
+                <img class="rounded-b-full md:w-56 w-32 mx-auto p-6" src="{{ site.url }}/build/jackson/512x512.png" alt="Jackson posing for a photograph">
             </div>
             <div class="mt-4 md:mt-0 md:ml-6 md:w-1/2">
-                <div class="uppercase tracking-wide text-2xl text-white font-bold">{{ site.title }}</div>
-                <a href="#" class="block mt-1 text-xl leading-tight font-semibold text-teal-400 hover:underline leading-relaxed">{{ page.page_title }}</a>
+                <div class="uppercase tracking-wide text-2xl text-blue-900 font-bold">{{ site.title }}</div>
+                <p class="block mt-1 text-xl leading-tight font-semibold text-yellow-400 leading-relaxed">{{ page.page_title }}</p>
                 <hr>
-                <p class="mt-2 text-lg text-gray-200 leading-snug">{{ page.page_subtitle }}</p>
+                <p class="mt-2 text-lg text-white leading-snug">{{ page.page_subtitle }}</p>
             </div>
             </div>
         </header>
