@@ -1,5 +1,17 @@
 @tailwind base;
 
+.bg-header-blue {
+  background-color: #456990;
+}
+
+.bg-project {
+  background-color: #363230;
+}
+
+.border-project {
+  border-color: #FFD52E;
+}
+
 p {
   @apply pb-4;
 }
