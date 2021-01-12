@@ -8,8 +8,22 @@
   background-color: #363230;
 }
 
-.border-project {
-  border-color: #FFD52E;
+@media (min-width: 768px) {
+
+  .border-project {
+    border-color: #FFD52E;
+    border-width: 0.2em;
+    border-style: dotted;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .border-project-small {
+    border-bottom: solid 1px white;
+  }
+
 }
 
 p {
