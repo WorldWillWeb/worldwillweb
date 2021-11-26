@@ -10,12 +10,12 @@ WIP
 - 📫 Find me :
   - [Twitter](https://twitter.com/worldwillweb)
   - [Linkedin](https://www.linkedin.com/in/william-ger/)
-- Support IT since 10 years, i'm looking for web developper job. More information about me here.
+- Was support IT, i'm now web developper.
 - I love :
   - Retrogaming (Link soon ...)
   - Gameboard (Link soon ...)
   - Trip around the world (Link soon ...)
-  - Stream on twitch
+  - Stream on twitch when i can
 
 _____
 
@@ -28,10 +28,10 @@ _____
 - 📫 Trouvez moi sur :
   - [Twitter](https://twitter.com/worldwillweb)
   - [Linkedin](https://www.linkedin.com/in/william-ger/)
-  - Ancien technicien support en informatique 10 ans, actuellement développeur web backend. Plus d'info sur me concernant ici.
+  - Ancien technicien support en informatique, actuellement développeur web.
 
 - J'aime :
   - Le retrogaming (Lien prochainement ...)
   - Jeux de plateaux (Lien prochainement ...)
   - Voyager autour du monde (Lien prochainement ...)
-  - Streamer sur Twitch
+  - Streamer sur Twitch quand j'ai le temps
